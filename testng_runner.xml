@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Presta shop automation tests" verbose="2" parallel="tests" thread-count="2">
+	<test name="Smoke tests using chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="tests.search.SearchTest"></class>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="Smoke test using chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="tests.search.SearchTest"></class>
+		</classes>
+	</test>
+</suite>
